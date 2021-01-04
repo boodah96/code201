@@ -1,0 +1,20 @@
+h1 {
+color: blue;
+padding: 3px ;
+margin: 3px;
+border: 2px dashed#09A5D9 ;
+display:inline-block ;
+background-color: #0BD99E;
+}
+
+p{
+    color: blue;
+    padding: 3px ;
+margin: 3px;
+border: 2px dashed #09A5D9 ;
+display:inline-block ;
+background-color: #0BD99E;
+}
+body{
+    background-color: #9ef8d5;
+}
