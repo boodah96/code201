@@ -2,7 +2,7 @@
 'use strict'
 
 var username = prompt('What is your name?');
-console.log('your name : '+username);
+console.log('your name : '+ username);
 alert('Hello '+username+' and welcome in my website ')
 alert('We will play a guessing game contain a 5 question you can answer about it by (y/n) or (yes/no), lets go')
 

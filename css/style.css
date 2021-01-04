@@ -1,13 +1,12 @@
 h1 {
 color: rgb(238, 238, 238);
-padding: 3px ;
-margin: 3px;
-border: 2px dashed#3609d9 ;
+
+padding-right: 100px;
 display:inline-block ;
-background-color: #1bce2a;
+background-image: url(https://media.snl.no/media/56424/article_topimage_grass-3342774.jpg);
 }
 
-p{
+p,h4{
     color: rgb(243, 243, 243);
  
 }
