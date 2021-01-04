@@ -1,20 +1,13 @@
 h1 {
-color: blue;
+color: rgb(238, 238, 238);
 padding: 3px ;
 margin: 3px;
-border: 2px dashed#09A5D9 ;
+border: 2px dashed#3609d9 ;
 display:inline-block ;
-background-color: #0BD99E;
+background-color: #1bce2a;
 }
 
 p{
-    color: blue;
-    padding: 3px ;
-margin: 3px;
-border: 2px dashed #09A5D9 ;
-display:inline-block ;
-background-color: #0BD99E;
-}
-body{
-    background-color: #9ef8d5;
+    color: rgb(243, 243, 243);
+ 
 }
