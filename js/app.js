@@ -107,22 +107,24 @@ while (i < 4) {
 }
 
 //Q7: multiple possible correct 
+var favsport =['basketball','football ','tennis'];
+
 var x = 0;
 while (x < 6) {
     
-    var favSport = prompt('What is my favorite sport?');
+    var favSport = prompt('What is my favorite sports?');
     switch (favSport.toLowerCase()) {
-        case 'basketball':
+        case favsport[0]:
             alert('correct answer');
             x = 7;
             correct++;
             break;
-        case 'football':
+        case favsport[1]:
             alert('correct answer');
             x = 7;
             correct++;
             break;
-        case 'tennis':
+        case favsport[2]:
             alert('correct answer');
             x = 7;
             correct++;
