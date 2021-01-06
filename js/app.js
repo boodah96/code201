@@ -15,73 +15,25 @@ console.log( 'I live in Irbid');
 console.log( 'I bought 3 cars in my life');
 console.log( 'My favorite sports: basketball,football and tennis');
 
-
-var myname = prompt('Is my name Abdalrhman?');
-
-if (myname.toLowerCase()==='yes'||myname.toLowerCase()==='y') {
-    alert('Correct answer my name is Abdalrhman');
-    correct++;
+function answerMe(input){
+    var qu=prompt(input);
+    if (qu.toLowerCase()==='yes'||qu.toLowerCase()==='y') {
+        alert('Correct answer');
+        correct++;
+        
+    } else if ( qu.toLowerCase()==='no'||qu.toLowerCase()==='n'){
     
-} else if ( myname.toLowerCase()==='no'||myname.toLowerCase()==='n'){
-
-    alert('false answer my name is Abdalrhman');
-}else{
-    alert('can you answer by (y/n) or (yes/no) please?');
+        alert('false answer');
+    }else{
+        alert('can you answer by (y/n) or (yes/no) please?');
+    }
 }
 
-var myage = prompt('Do you think I have 24 years old ?');
-
-if (myage.toLowerCase()==='yes'||myage.toLowerCase()==='y') {
-    alert('Correct answer I have 24 years ');
-    correct++;
-    
-} else if ( myage.toLowerCase()==='no'||myage.toLowerCase()==='n'){
-
-    alert('false answer I have 24 years');
-}else{
-    alert('can you answer by (y/n) or (yes/no) please?');
-}
-
-var mymagor = prompt('Do you think I am a Civil Engineer?');
-
-if (mymagor.toLowerCase()==='yes'||mymagor.toLowerCase()==='y') {
-    alert('Correct answer I am a Civil Engineer');
-    correct++;
-    
-} else if ( mymagor.toLowerCase()==='no'||mymagor.toLowerCase()==='n'){
-
-    alert('false answer I am a Civil Engineer');
-}else{
-    alert('can you answer by (y/n) or (yes/no) please?');
-}
-
-var memberation = prompt('Do you think I am a member at JEA?');
-
-if (memberation.toLowerCase()==='yes'||memberation.toLowerCase()==='y') {
-    alert('Correct answer I am a member at JEA');
-    correct++;
-    
-} else if ( memberation.toLowerCase()==='no'||memberation.toLowerCase()==='n'){
-
-    alert('false answer I am a member at JEA');
-}else{
-    alert('can you answer by (y/n) or (yes/no) please?');
-}
-
-var mycity = prompt('Do you think I live in Irbid?');
-
-if (mycity .toLowerCase()==='yes'||mycity .toLowerCase()==='y') {
-    alert('Correct answer I live in Irbid');
-    correct++;
-    
-} else if ( mycity.toLowerCase()==='no'||mycity.toLowerCase()==='n'){
-
-    alert('false answer I live in Irbid');
-}else{
-    alert('can you answer by (y/n) or (yes/no) please?');
-}
-
-
+var myname = answerMe('Is my name Abdalrhman?');
+var myage = answerMe('Do you think I have 24 years old ?');
+var mymagor = answerMe('Do you think I am a Civil Engineer?');
+var memberation = answerMe('Do you think I am a member at JEA?');
+var mycity = answerMe('Do you think I live in Irbid?');
 
 // Q6 : How many cars I bought in my life?
 var i = 0
